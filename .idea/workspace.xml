@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119f7f09-075f-4787-8b5d-579085e04ed0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rogerio/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rogerio/Vectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rogerio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rogerio/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GCD">
+  <component name="RunManager" selected="Application.Vectors">
     <configuration name="Ackermann" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rogerio.Ackermann" />
       <module name="exerciciosRecursivos" />
@@ -90,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Vectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rogerio.Vectors" />
+      <module name="exerciciosRecursivos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rogerio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vectors" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.Ackermann" />
         <item itemvalue="Application.Main" />

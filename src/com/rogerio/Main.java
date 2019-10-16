@@ -12,14 +12,16 @@ public class Main {
 	    int[] arrayRand = {6, 0, 15, 4, 9, 7, 8, 3, 5, 17, 12, 13, 10, 19, 14, 11, 16, 2, 18, 1};
 	    int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
-        System.out.println("1 - Converter Decimal para Binario");
-        System.out.println("2 - Achar o numero de fibonacci dada uma posiçao");
-        System.out.println("3 - Resultado de um numero fatorial(n!)");
-        System.out.println("4 - Busca Binaria, retorna a posiçao do elemento");
-        System.out.println("5 - Inverte uma palavra");
-        System.out.println("6 - Funcao de Ackermann (Dois inteiros)");
-        System.out.println("7 - Funcao de Ackermann (Tres inteiros)");
-        System.out.println("8 - Maximo Divisor Comum");
+        System.out.println("1 - Converter Decimal para Binario.");
+        System.out.println("2 - Converter Binario para Decimal.");
+        System.out.println("3 - Achar o numero de fibonacci dada uma posiçao.");
+        System.out.println("4 - Resultado de um numero fatorial(n!).");
+        System.out.println("5 - Busca Binaria, retorna a posiçao do elemento.");
+        System.out.println("6 - Inverte uma palavra.");
+        System.out.println("7 - Funcao de Ackermann (Dois inteiros.)");
+        System.out.println("8 - Funcao de Ackermann (Tres inteiros.)");
+        System.out.println("9 - Maximo Divisor Comum.");
+        System.out.println("10 - Soma de Vetor.");
 
         int input = Integer.parseInt(bf.readLine());
 
@@ -80,6 +82,10 @@ public class Main {
                 System.out.println("Entre o psegundo numero do MDC: ");
                 int y = Integer.parseInt(bf.readLine());
                 System.out.println("MDC: " + GCD.gCD(x, y));
+                break;
+            case 10:
+                System.out.println("Array de Teste: " + arrayRand);
+                System.out.println("Soma: " + Vectors.sum(arrayRand));
                 break;
         }
     }
