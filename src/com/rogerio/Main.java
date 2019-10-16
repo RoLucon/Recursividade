@@ -19,6 +19,7 @@ public class Main {
         System.out.println("5 - Inverte uma palavra");
         System.out.println("6 - Funcao de Ackermann (Dois inteiros)");
         System.out.println("7 - Funcao de Ackermann (Tres inteiros)");
+        System.out.println("8 - Maximo Divisor Comum");
 
         int input = Integer.parseInt(bf.readLine());
 
@@ -46,25 +47,25 @@ public class Main {
                 int fac = Integer.parseInt(bf.readLine());
                 System.out.println("Fatorial: " + Factorial.factorial(fac));
                 break;
-            case 6:
+            case 5:
                 System.out.println("Entre o valor a ser encontrado no array, nuemro entre 1 e 20" +
                         "(retorno -1 = a nao encontrado): ");
                 int pos = Integer.parseInt(bf.readLine());
                 System.out.println(BinarySearch.search(pos, array));
                 break;
-            case 7:
+            case 6:
                 System.out.println("Entre a palavra a ser invertida");
                 String text = bf.readLine();
                 System.out.println("inverte: " + StringHandle.reverse(text));
                 break;
-            case 8:
+            case 7:
                 System.out.println("Entre o primeiro valores para Funcao de Ackermann");
                 int m = Integer.parseInt(bf.readLine());
                 System.out.println("Entre o segundo valores para Funcao de Ackermann");
                 int n = Integer.parseInt(bf.readLine());
                 System.out.println("Ackermann: " + Ackermann.ackermann(m, n));
                 break;
-            case 9:
+            case 8:
                 System.out.println("Entre o primeiro valores para Funcao de Ackermann");
                 m = Integer.parseInt(bf.readLine());
                 System.out.println("Entre o segundo valores para Funcao de Ackermann");
@@ -72,6 +73,13 @@ public class Main {
                 System.out.println("Entre o segundo valores para Funcao de Ackermann");
                 int p = Integer.parseInt(bf.readLine());
                 System.out.println("Ackermann: " + Ackermann.ackermann(m, n, p));
+                break;
+            case 9:
+                System.out.println("Entre o primeiro numero do MDC: ");
+                int x = Integer.parseInt(bf.readLine());
+                System.out.println("Entre o psegundo numero do MDC: ");
+                int y = Integer.parseInt(bf.readLine());
+                System.out.println("MDC: " + GCD.gCD(x, y));
                 break;
         }
     }
